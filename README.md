@@ -1,3 +1,11 @@
+## Background
+
+We set-up an interactive dashboard to derive insights from the FDA Clinical Inspections database. This dashboard is open access and meant to be used by clinical quality professionals.  
+
+Authors: Timothé Ménard, Björn Koneswarakantha
+
+Corresponding Research Letter currently under review
+
 ## Dashboard
 
 https://erblast.github.io/fda_inspections/
