@@ -24,7 +24,7 @@ https://erblast.github.io/fda_inspections/
 
 ### Data
 
-- Cut-off date 26-Jun-2019. Data pulled [from CLIIL database](https://www.accessdata.fda.gov/scripts/cder/CLIIL/index.cfm) on 19-Aug-2019
+- Cut-off date 02-Dec-2019. Data pulled [from CLIIL database](https://www.accessdata.fda.gov/scripts/cder/CLIIL/index.cfm) on 12-Dec-2019
 
 - Source --> https://www.accessdata.fda.gov/scripts/cder/CLIIL/index.cfm
 
