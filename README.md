@@ -1,4 +1,6 @@
-! (travis build badge)[https://travis-ci.org/erblast/fda_inspections.svg?branch=master]
+
+[![Travis CI Build
+Status](https://travis-ci.org/erblast/fda_inspections.svg?branch=master)](https://travis-ci.org/erblast/fda_inspections)
 
 ## Background
 
