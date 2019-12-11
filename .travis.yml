@@ -4,4 +4,4 @@ services:
   - docker
   
 script: 
-  - docker run -it --rm -v "$PWD":/home/jovyan/work erblast/jup_snakemake:latest snakemake
+  - docker run -v "$PWD":/home/jovyan/work erblast/jup_snakemake:latest snakemake
