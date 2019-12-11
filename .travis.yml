@@ -4,4 +4,4 @@ services:
   - docker
   
 script: 
-  - docker run -v "$PWD":/home/jovyan/work erblast/jup_snakemake:latest snakemake
+  - docker build . --file  docker/fda_inspections.Dockerfile -t fda_insp
