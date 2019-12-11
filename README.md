@@ -1,3 +1,8 @@
+## Dashboard
+
+https://erblast.github.io/fda_inspections/
+
+
 ## Exploratory analysis FDA inspections 
 
 ### Clinical Investigator Inspection List (CIIL) Database from US FDA
@@ -20,7 +25,7 @@
 
 https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html
 
-### Snakemake
+### Run Code via Snakemake
 ```
 docker run -it --rm -v "$PWD":/home/jovyan/work erblast/jup_snakemake:latest snakemake
 ```
