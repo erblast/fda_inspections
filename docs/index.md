@@ -1,5 +1,7 @@
-# Tableau Dashboard
+[![Travis CI Build
+Status](https://travis-ci.org/erblast/fda_inspections.svg?branch=master)](https://travis-ci.org/erblast/fda_inspections)
 
+# Tableau Dashboard
 
 
 [direct link](https://public.tableau.com/views/eda_tableau/deficiencies?:display_count=y&:origin=viz_share_link)
