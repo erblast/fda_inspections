@@ -1,3 +1,5 @@
+! (travis build badge)[https://travis-ci.org/erblast/fda_inspections.svg?branch=master]
+
 ## Background
 
 We set-up an interactive dashboard to derive insights from the FDA Clinical Inspections database. This dashboard is open access and meant to be used by clinical quality professionals.  
