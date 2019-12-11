@@ -1,0 +1,24 @@
+code,deficiency,cfr_reference,mapped_clinical_impact_factor
+1,Records availability,21 CFR 312.62,data_integrity
+2,Failure to obtain and/or document subject consent,"21 CFR 312.60, 50.20, 50.27",consent
+3,Inadequate informed consent form,21 CFR 50.25,consent
+4,Inadequate drug accountability,"21 CFR 312.60, 312.62",primary_endpoints_and_safety
+5,Failure to follow investigational plan,21 CFR 312.60,primary_endpoints_and_safety
+6,Inadequate and inaccurate records,21 CFR 312.62,primary_endpoints
+7,Unapproved concomitant therapy,21 CFR 312.60,primary_endpoints_and_safety
+8,Inappropriate payment to volunteers,21 CFR 50.20,consent
+9,Unapproved use of drug before IND submission,21 CFR 312.40(d),safety
+10,Inappropriate delegation of authority,"21 CFR 312.7, 312.61",primary_endpoints_and_safety
+11,Inappropriate use/commercialization of IND,"21 CFR 312.7, 312.61",primary_endpoints_and_safety
+12,Failure to list additional investigators on 1572,21 CFR 312.60,primary_endpoints
+13,Subjects receiving simultaneous investigational drugs,21 CFR 312.60,primary_endpoints_and_safety
+14,Failure to obtain or document IRB approval,"21 CFR 312.60, 62, 66; 56.103",consent
+15,"Failure to notify IRB of changes, failure to submit progress reports",21 CFR 312.66,consent
+16,Failure to report adverse drug reactions,"21 CFR 312.64, 312.66",safety
+17,Submission of false information,21 CFR 312.70,primary_endpoints_and_safety
+18,Other,n/a,other
+19,Failure to supervise or personally conduct the clinical investigation,21 CFR 312.60,primary_endpoints_and_safety
+20,"Failure to protect the rights, safety, and welfare of subjects",21 CFR 312.60,human_subject_protection
+21,Failure to permit FDA access to records,21 CFR 312.68,human_subject_protection
+22,No deficiencies noted,n/a,no_finding
+23,No data reported,n/a,no_data
