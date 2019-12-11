@@ -35,7 +35,7 @@ https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html
 
 ### Run Code via Snakemake
 ```
-docker run -it --rm -v "$PWD":/home/jovyan/work erblast/jup_snakemake:latest snakemake
+docker run -v "$PWD":/home/jovyan/work erblast/jup_snakemake:latest snakemake -F
 ```
 
 ### Shell

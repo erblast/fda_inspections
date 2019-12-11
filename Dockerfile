@@ -17,7 +17,7 @@ EXPOSE 8888
 # Configure container startup
 ENTRYPOINT ["tini", "-g", "--"]
 CMD ["start-notebook.sh"]
-WORKDIR /work
+WORKDIR /home/jovyan/work
 
 # Fix permissions on /etc/jupyter as root
 USER root
