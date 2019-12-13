@@ -1,14 +1,19 @@
 
 rule all:
     input:
-        'docs/html/inspection_fda_data_cleaning_mapping.html'
+        'notebooks/rendered/inspection_fda_data_cleaning_mapping.ipynb'
         , 'data/output/final_set_FDA.csv'
         
-rule clean:
+rule clean_jup:
     input:
-        'notebooks/inspection_fda_data_cleaning_mapping.ipynb'
+        'notebooks/unrendered/inspection_fda_data_cleaning_mapping.ipynb'
+        , 'data/input/raw_clinical_investigator_inspection_fc.xls'
+        , 'data/input/raw_clinical_investigator_inspection_da.xls'
+        , 'data/input/refined_mapping_fda_inspections_code.csv'
     output:
-        'docs/html/inspection_fda_data_cleaning_mapping.html'
+        'notebooks/rendered/inspection_fda_data_cleaning_mapping.ipynb'
+        , 'data/output/final_set_FDA.csv'
+        , 'docs/html/inspection_fda_data_cleaning_mapping.html'
     params:
         file='data/input/raw_clinical_investigator_inspection_fc.xls'
         , file2='data/input/raw_clinical_investigator_inspection_da.xls'
@@ -16,10 +21,10 @@ rule clean:
         , file_out='data/output/final_set_FDA.csv'
 
     shell:
-        'papermill {input} {input} \
-            -p file {params.file} \
-            -p file2 {params.file2} \
-            -p file_map {params.file_map} \
-            -p file_out {params.file_out} \
-        && jupyter nbconvert --to html {input} --output ../{output}'
-    
+        'papermill {input[0]} {output[0]} \
+            -p file {input[1]} \
+            -p file2 {input[2]} \
+            -p file_map {input[3]} \
+            -p file_out {output[1]} \
+        && jupyter nbconvert --to html {output[0]} --output ../../{output[2]}'
+
