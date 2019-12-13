@@ -17,8 +17,8 @@ Authors: Timothé Ménard, Björn Koneswarakantha
 Corresponding Research Letter currently under review
 
 Related work  
-https://rd.springer.com/article/10.1007/s40264-019-00831-4  
-https://rd.springer.com/article/10.1007%2Fs40264-019-00894-3  
+[https://rd.springer.com/article/10.1007/s40264-019-00831-4](https://rd.springer.com/article/10.1007/s40264-019-00831-4)  
+[https://rd.springer.com/article/10.1007%2Fs40264-019-00894-3](https://rd.springer.com/article/10.1007%2Fs40264-019-00894-3)  
 
 ## Dashboard
 
