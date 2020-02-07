@@ -16,7 +16,7 @@ EXPOSE 8888
 
 # Configure container startup
 ENTRYPOINT ["tini", "-g", "--"]
-CMD ["start.sh jupyter notebook --NotebookApp.token=''"]
+CMD ["start-notebook.sh"]
 WORKDIR /home/jovyan/work
 
 # Fix permissions on /etc/jupyter as root

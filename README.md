@@ -48,6 +48,9 @@ docker run -it --rm -v "$PWD":/home/jovyan/work erblast/jup_snakemake:latest /bi
 ```
 
 ### Jupyter
+
+with password: 123
+
 ```
-docker run -p 8888:8888 -v "$PWD":/home/jovyan/work erblast/jup_snakemake:latest
+docker run -p 8888:8888 -v "$PWD":/home/jovyan/work -e JUPYTER_TOKEN=123 erblast/jup_snakemake:latest
 ```
