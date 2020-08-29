@@ -8,7 +8,7 @@ We set-up an interactive dashboard to derive insights from the FDA Clinical Insp
 
 Authors: Timothé Ménard, Björn Koneswarakantha
 
-Corresponding Research Letter currently under review
+Corresponding short letter can be found [here](https://www.researchgate.net/publication/340428614_What_Can_We_Learn_From_40_Years_Of_Clinical_Inspections_A_Visual_Exploration_Of_The_FDA_Clinical_Inspections_Database)
 
 ## Dashboard
 
